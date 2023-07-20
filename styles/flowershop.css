@@ -142,7 +142,7 @@ header {
     margin: 0;
     padding: 0 240px;
     align-items: center;
-    margin-top: 24px;
+    padding-top: 24px;
 }
 
 .feauture {
@@ -168,5 +168,19 @@ header {
     background: rgba(229, 84, 115, 0.05);
     padding: 100px 230px 150px;
 }
+
 /* hot deal end */
 /* instragram  */
+.ret-flower {
+    padding-top: 24px;
+}
+.retangle-flower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 10px;
+}
+.instragram{
+    padding: 130px 90px;
+}
