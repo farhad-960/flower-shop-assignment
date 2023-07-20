@@ -195,9 +195,13 @@ header {
 
 input[type="email"] {
     width: 600px;
-    height: 54px;
+    height: 57px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.input{
+    justify-content: space-between;
 }
 
 .leatest-deal {
