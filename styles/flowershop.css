@@ -1,0 +1,79 @@
+/* shaired design */
+body {
+    font-family: Lato;
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.btn-primary {
+    background: #E55473;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* shaired design */
+/* nav design */
+.nav-title {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+/* banner-title */
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: left;
+    width: 700px;
+}
+.des-area {
+    width: 634px;
+    padding: 32p 0;
+    text-align: left;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 180px;
+    
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    background-position: cover;
+}
