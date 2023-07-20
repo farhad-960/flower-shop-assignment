@@ -174,13 +174,41 @@ header {
 .ret-flower {
     padding-top: 24px;
 }
+
 .retangle-flower {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     gap: 10px;
 }
-.instragram{
+
+.instragram {
     padding: 130px 90px;
+}
+
+/* latest deal */
+.input-subscribe {
+    text-align: center;
+    background: url("back.png");
+}
+
+input[type="email"] {
+    width: 600px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+}
+
+.leatest-deal {
+    background: url("back.png");
+    background: #E55473;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    max-width: 1440px;
+    padding: 121px 280px;
+    margin: 0 80px; 
+    background: url("../back.png");
 }
