@@ -195,20 +195,41 @@ header {
 
 input[type="email"] {
     width: 600px;
-    height: 46px;
+    height: 54px;
     border: none;
     border-radius: 5px;
 }
 
 .leatest-deal {
-    background: url("back.png");
-    background: #E55473;
+    margin: 0 80px;
+    background: url("../back.png");
     background-repeat: no-repeat;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    max-width: 1440px;
-    padding: 121px 280px;
-    margin: 0 80px; 
-    background: url("../back.png");
+    padding: 128px 240px;
+    margin-bottom: 128px;
+    /* padding-bottom: 128px; */
+}
+
+/* footer design */
+.footer-description {
+    padding: 24px 0;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+
+}
+
+footer {
+    background: #111010;
+    padding: 128px 448px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-content {
+    color: rgba(255, 255, 255, 0.90);
 }
